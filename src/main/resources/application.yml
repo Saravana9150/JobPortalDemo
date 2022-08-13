@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:h2:mem:job
+    driver-class-name: org.h2.Driver
+    username: saravana 
+    password: pass
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
